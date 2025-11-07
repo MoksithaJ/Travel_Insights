@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #5ea6a3;
+}
+.social-icons {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.social-icons img {
+    width: 25px;
+    
+    cursor: pointer;
+}
+.about {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 70, 80, 0.6), rgba(0, 70, 80, 0.6)), 
+                url('./luca-bravo-O453M2Liufs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 120px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.about-text {
+    max-width: 900px;
+}
+
+.about-text h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.about-description {
+    font-size: 16px;
+    line-height: 1.6;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.team-section {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.team-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.team-member img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 12px;
+}
+
+.role {
+    display: inline-block;
+    background: #5ea6a3;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+

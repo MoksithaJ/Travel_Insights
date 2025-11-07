@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;      
+    align-items: center; 
+    gap: 20px;          
+}
+ nav ul li {
+    display: inline;
+    margin-right: 5px;
+   
+  }
+ nav a {
+    text-decoration: silver;
+    color: white;
+    font-weight: bold;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+
+  button {
+    padding: 10px 18px;
+    background-color: #5ea6a3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#conditionInput{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 250px;
+}
+button:hover {
+    background-color: #abd4d4;
+}
+
+#searchdiv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero {
+    height: 100vh;
+    background:  linear-gradient(rgba(0, 70, 80, 0.6), rgba(0, 70, 80, 0.6)),url('./luca-bravo-O453M2Liufs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+    position: relative;
+}
+
+
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin: 25px 0;
+    width: 350px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.social-icons {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 25px;
+    
+    cursor: pointer;
+}
