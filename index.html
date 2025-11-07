@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Insights</title>
+        <link rel="stylesheet" href="./travel_recommendation.css">
+    </head>
+
+    <body>
+        <nav><h1 style = "color : White ; font-size :30px;font-family: Poppins, sans-serif; "><i/>Travel Insights</i></h1>
+            <ul>
+            <li><a href = "./travel_recommendation.html" id = "home">Home</a></li>
+            <li><a href = "./about_us.html" id = "about">About Us</a></li>
+            <li><a href = "./contact_us.html" id = "about">Contact Us</a></li>
+    
+            <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
+            <div id ="searchdiv">
+            <button id="btnSearch">Search</button>
+            <button onclick="clearSearch()">Clear</button>
+            </div>
+        </nav>
+         <div id="result"></div>
+        <div class="hero">
+
+            <div class="social-icons">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"></a> 
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png"></a>
+            </div>
+        
+            <div class="hero-text">
+                <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+                <p>
+                    It encourages exploration of unfamiliar<br>
+                    territories, embracing diverse cultures and<br>
+                    landscapes, while pursuing the desired<br>
+                    destination that captivates the heart and<br>
+                    ignites a sense of wonder.
+                </p>
+                <button class="book-btn">BOOK NOW</button>
+            </div>
+        
+        </div>
+       
+        <script src="travel_recommendation.js"></script>
+    </body>
+
+
+</html>

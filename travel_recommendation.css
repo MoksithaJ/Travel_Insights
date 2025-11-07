@@ -106,3 +106,21 @@ button:hover {
     
     cursor: pointer;
 }
+#result {
+  position: absolute;
+  top: 110px;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 200;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(rgba(0, 70, 80, 0.6), rgba(0, 70, 80, 0.6));
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+  max-height: 70vh;
+  overflow-y: auto;
+}
